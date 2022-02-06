@@ -10,16 +10,16 @@
 
   * {
     color: var(--fontColor);
-    font-family: blambot-fx-pro, sans-serif;
+    font-family: tomarik-display, sans-serif;
     font-style: normal;
     font-weight: 400;
   }
 
 h1 {
   color: var(--fontColor);
-    font-family: blambot-fx-pro, sans-serif;
+    font-family: tomarik-display-shadow, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 ul {
-  font-family: blambot-fx-pro, sans-serif;
+  font-family: tomarik-display, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
