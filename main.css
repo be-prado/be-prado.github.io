@@ -4,6 +4,8 @@
     --black: #000000;
     --gray: #E5E4E2;
     --iris: #5D3FD3;
+    --beige: #FBE7C6;
+    --cream: #F8EFE4;
   }
 
   
@@ -62,7 +64,7 @@ li {
 .btn:focus { outline-style: none; }
 
 .light-theme {
-    --bg: var(--gray);
+    --bg: var(--cream);
     --fontColor: var(--iris);
     --btnBg: var(--black);
     --btnFontColor: var(--purple);
