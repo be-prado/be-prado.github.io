@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild.loader.js";
+      var loaderUrl = buildUrl + "/p3web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data.br",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js.br",
-        codeUrl: buildUrl + "/WebBuild.wasm.br",
+        dataUrl: buildUrl + "/p3web.data.unityweb",
+        frameworkUrl: buildUrl + "/p3web.framework.js.unityweb",
+        codeUrl: buildUrl + "/p3web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SpellingBee",
         productName: "Hungry Cat Cooking",
@@ -85,7 +85,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/WebBuild.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/p3web.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
