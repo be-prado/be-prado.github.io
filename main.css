@@ -87,10 +87,10 @@ li {
   }
 
   .portrait {
-    width: 200px;
+    width: 250px;
     float: right;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .content {
