@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/HungryCatCooking.loader.js";
+      var loaderUrl = buildUrl + "/webbuild_1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/HungryCatCooking.data.unityweb",
-        frameworkUrl: buildUrl + "/HungryCatCooking.framework.js.unityweb",
-        codeUrl: buildUrl + "/HungryCatCooking.wasm.unityweb",
+        dataUrl: buildUrl + "/webbuild_1.data.unityweb",
+        frameworkUrl: buildUrl + "/webbuild_1.framework.js.unityweb",
+        codeUrl: buildUrl + "/webbuild_1.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SpellingBee",
         productName: "Hungry Cat Cooking",
@@ -82,10 +82,10 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
-      canvas.style.background = "url('" + buildUrl + "/HungryCatCooking.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/webbuild_1.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
