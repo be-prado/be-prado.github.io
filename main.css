@@ -31,6 +31,7 @@ p {
     font-weight: 400;
     font-size: 20px;
 }
+
 exp {
   color: var(--black);
     font-family: mostra-nuova, sans-serif;
@@ -73,6 +74,12 @@ li {
 
 .btn:focus { outline-style: none; }
 
+.scroll-down {
+  height: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+
 .light-theme {
     --bg: var(--cream);
     --fontColor: var(--iris);
@@ -88,14 +95,15 @@ li {
   }
 
   .portrait {
-    width: 100%;
+    max-width: 80%;
     height: auto;
+    width: auto; /* \9 ie8 */
     float: right;
     margin-top: 4%;
     margin-bottom: 4%;
     margin-left: 1%;
     margin-right: 4%;
-    max-width: 250px;
+    /*max-width: 250px; */
   }
 
   .content {
@@ -103,15 +111,51 @@ li {
     height: auto;
     padding: 1% 0%;
 }
-  .main_articles {
-    width: 70%;
-    float: left;
-    height: auto;
-    margin-left: 2%;
+
+.main_articles {
+  width: 70%;
+  float: left;
+  height: auto;
+  margin-left: 2%;
 }
 
 .side_article {
   width: 25%;
   float: right;
   height: auto;
+}
+
+.side_p {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 1%;
+  margin-right: 4%;
+}
+
+div {
+  margin: 2px;
+}
+
+#img-link, #img-link img{
+  text-decoration: none !important;
+  border:0px !important;
+}
+
+#odd-link{
+  text-decoration: none;
+  }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+@media screen and (max-width: 760px) {
+  .main_articles {
+    width: 100%;
+  }
+  .side_article {
+    width: 100%;
+  }
 }

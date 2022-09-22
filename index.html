@@ -14,138 +14,302 @@
 
 
 <body class="light-theme">
-<h1> <a href="./index.html" style="text-decoration: none"> THE PORTFOLIO OF BERNARDO BIANCO PRADO </a> </h1>
 
-<div class="content">
-  <div class="main_articles">
-<h2>ABOUT ME</h2>
+  <h1> <a href="./index.html" style="text-decoration: none"> THE PORTFOLIO OF BERNARDO BIANCO PRADO </a> </h1>
 
-<p>My name is Bernardo and I'm a third year graduate student at the University of Michigan pursuing a Masters degree in Electrical 
-  and Computer Engineering and a Masters degree in Applied and Interdisciplinary Mathematics. I started at Michigan as an Applied 
-  Mathematics PhD student and have since grown more interested in Machine Learning, Signal Processing, Game Development, and Computer 
-  Graphics. I decided to use my PhD credits to get two Masters degrees and learn more about the subjects that interest me. You can scroll 
-  down to see my Video Game Development and Computer Graphics projects. At the very bottom of the page I list two of my Mathematics 
-  research projects. For my Machine Learning and Signal Processing projects, you can check out my GitHub linked right below this 
-  paragraph. 
-  <br> <br>
-  I am passionate about all forms of story telling, I love video games, movies, books and music. I enjoy making and 
-  listening to music and I am interested in how Machine Learning and Signal Processing can be used to make audio products better. I 
-  play the guitar for fun and I am trying to learn how to play the bass and the harmonica. I think that's enough about me. Feel free 
-  to connect with me on LinkedIn if you want to chat!
-</p>
-
-<p> <a href="mailto:beprado@umich.edu">Email</a> beprado@umich.edu
-    <br>
-  <a href="https://www.linkedin.com/in/bernardo-bianco-prado-735000197/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-    <br>
-    <a href="https://github.com/be-prado" target="_blank" rel="noopener noreferrer">GitHub</a>
-</p>
-</div>
-<div class="side_article">
-<img class="portrait" src="./media/profile.png">
-</div>
-
-<div class="main_articles">
-<h2>VIDEO GAME PROJECTS</h2>
-</div>
-<ul>
-
-  <div class="main_articles">
-    <li class="list"><a href="https://www.wolverinesoft.org/ragnark-td">PROJECT SKYSCRAPER</a><exp> This is my first 
-      project with WolverineSoft studio! Stay tuned for game details and dev blog updates! 
+  <div class="side_article">
+    <img class="portrait" src="./media/profile.png">
+    <div style="text-align: right;">
+      <p class="side_p"> <a href="mailto:beprado@umich.edu">Email</a>
       <br>
-      [<a href="./dev_blogs/project_skyscraper/blog.html">DEV BLOG</a>]   
-    </exp>  </li>
+      <a href="https://www.linkedin.com/in/bernardo-bianco-prado-735000197/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+      <br>
+      <a href="https://github.com/be-prado" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="main_articles">
+    
+    <h2>WHAT'S ON THIS WEBSITE?</h2> 
+    <ul>
+      <li class = "list">
+      <a href="#about-me">ABOUT ME</a>
+      </li> 
+      <br>
+      <li class = "list">
+        <a href="#video-game">VIDEO GAME PROJECTS</a>  
+      </li>
+      <br>
+      <li class = "list">
+        <a href="#ml">MACHINE LEARNING PROJECTS</a>
+      </li>
+      <br>
+      <li class = "list">
+        <a href="#publications">PUBICATIONS</a>
+      </li>
+      <br>
+      <li class = "list">
+        <a href="#surveys">ARTICLE SURVEYS</a>
+      </li>
+    </ul>
+  </div>
   
+  <!---
+  <div class = "main_articles">
+    <br><br><br><br><br><br><br><br>
+  </div>
+  -->
+
+
+
+  
+    <div class="content">
+      
+      <div class="main_articles">
+        <a id = "about-me">
+        <h2>ABOUT ME</h2>
+
+        <p>
+          My name is Bernardo and I'm a third year graduate student at the University of Michigan pursuing a Masters degree in Electrical 
+          and Computer Engineering and a Masters degree in Applied and Interdisciplinary Mathematics. I started at Michigan as an Applied 
+          Mathematics PhD student and have since grown more interested in Machine Learning, Signal Processing, Game Development, and Computer 
+          Graphics. I decided to use my PhD credits to get two Masters degrees and learn more about the subjects that interest me. Feel free 
+          to look around for some of my highlighted projects.
+          <br> <br>   
+          I am passionate about all forms of story telling, I love video games, movies, books and music. I enjoy making music and I am 
+          interested in how Machine Learning and Signal Processing can be used to make audio products better. I'm passionate about learning 
+          and I'm always open to exploring a new subject or technique to better understand something! I think that's enough about me. Feel free 
+          to connect with me on LinkedIn if you want to chat!
+        </p>
+      </div>  
+    </div>
+  </a>
+
+  <!--
+  <p> <a href="mailto:beprado@umich.edu">Email</a> beprado@umich.edu
+      <br>
+    <a href="https://www.linkedin.com/in/bernardo-bianco-prado-735000197/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+      <br>
+      <a href="https://github.com/be-prado" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </p>
+  -->
+
+  <a id = "video-game">
+    <div class="main_articles">
+      <h2>VIDEO GAME PROJECTS</h2>
+    </div>
+    <ul>
+      
+      <div class="main_articles">
+        <li class="list"><a href="https://www.wolverinesoft.org/ragnark-td">PROJECT SKYSCRAPER</a>
+          <exp> This is my first project with WolverineSoft studio! Stay tuned for game details and dev blog updates! 
+          <br>
+          [<a href="./dev_blogs/project_skyscraper/blog.html">DEV BLOG</a>]   
+          </exp>
+        </li>
+        <br> 
+        </div>
+    
+      <div class="main_articles">
+        <li class="list"><a href="https://github.com/be-prado/ray-tracing">PARALLELIZED RAY TRACER</a>
+          <exp>  This project implements Peter Shirley's Ray Tracing in One Weekend in C++, but it differs from the book's 
+            implementation in that the tracer was parallelized using CUDA. The parallelized code achieved a performance 
+            improvement of 12 times compared to the original code! 
+          </exp>  
+        </li>
+        <br>
+        <img src="./media/ray_tracing1.png"  height="189"> <img src="./media/ray_tracing2.png"  height="189">
+        <br> <br>
+      </div>
+        
+      
+      <div class="main_articles">
+        <li class="list"><a href = "./projects/HungryCatCooking/index.html">HUNGRY CAT COOKING</a>
+          <exp> 
+            Hungry Cat Cooking is a cooking platforming game where you will play as a cat that aspires to be the first 
+            feline to open a human restaurant! Of course, in the world we live in, a cat can't just randomly open a restaurant 
+            and serve humans. A long time ago, a fellow feline tried to accomplish such feat and wasn't successful. To your 
+            luck, this old cat created a training that will prepare you to thrive where he has failed. Check out the game trailer below! 
+          </exp>
+          <br> <br>
+          <iframe width="336" height="189" src="https://www.youtube.com/embed/hFUhFPTT3pY" title="YouTube video player" frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+          <a href = "https://spellingbee.itch.io/hungry-cat-cooking" target="_blank" rel="noopener noreferrer"><img src="./media/GameCardGIF.gif"  height="189"> </a>
+          <br> <br>
+          <exp>
+          Developed by: Bernardo Bianco Prado, Calvin Tran, Colin Yoon, and Drew Vanderspool
+          <br>
+          Original scores by: Emily Sulkey and Liam Kochanek
+          <br>
+          Original art by: Liam Kochanek, Calvin Tran and Bernardo Bianco Prado
+          <br>
+          Voice acting by: Chandler Branson
+          </exp>
+        </li>
+        <br>
+      </div>
+      
+      <div class="main_articles">
+        <li class="list"><a href="./projects/PixelBlue/index.html">PIXEL BLUE</a>
+          <exp>  
+            This is a two week prototype of a rythmic puzzle game in homage of Blues music. Your one 
+            and only tool is an electric keyboard and you can use it to progress in the game, interact with 
+            the world around you or just enjoy your own Blues improvisation!
+          </exp>  
+        </li>    
+        <br>    
+      </div>
+      
+      <div class="main_articles">
+        <li class="list"><a href="./projects/Zelda/index.html">THE LEGEND OF ZELDA (UNITY REMASTER)</a></li>
+        <br>
+      </div>    
+    </ul>
+
+  </a>
+
+
+    <!--
+
+    <div class="main_articles">
+      <h2>
+      <a href="./video-game-projects.html">VIDEO GAME PROJECTS</a></h2>
+    </div>
+
+    <ul>
+    <div class="main_articles">
+      <a href = "./video-game-projects.html" class="text-link" id="odd-link">
+        <img src="./media/GameCardGIF.gif"  height="189"> 
+        <img src="./media/ray_tracing2.png"  height="189"> 
+        </a>
+        <p></p>
+    </div>
+    </ul>
+
+    -->
+
+  <a id = "ml">
+    <div class="main_articles">
+      <h2>MACHINE LEARNING PROJECTS</h2>
+    </div>
+
+    <ul>
+      <div class="main_articles">
+        <li class="list"><a href="https://github.com/be-prado/optimization-in-machine-learning">
+          SCALABLE AND EFFICIENT MACHINE LEARNING ALGORITHMS</a>
+          <br>
+          <exp> 
+            This repository features code that was written for a graduate course at the University of Michigan which focused on efficient and 
+            scalable optimization algorithms for machine learning. The problems solved include logistic regression, robust principal component 
+            analysis, matrix completion, dictionary learning and orthogonal dictionary learning.  
+          </exp>  
+        </li>
         <br> 
       </div>
 
-  <div class="main_articles">
-    <li class="list"><a href="https://github.com/be-prado/ray-tracing">PARALLELIZED RAY TRACER</a><exp>  This project implements 
-      Peter Shirley's Ray Tracing in One Weekend in C++, but it differs from the book's implementation in that the tracer was parallelized 
-      using CUDA. The parallelized code achieved a performance improvement of 12 times compared to the original code! </exp>  </li>
-
-      <br>
-
-      <img src="./media/ray_tracing1.png"  height="189"> <img src="./media/ray_tracing2.png"  height="189">
-  
-        <br> <br>
-      </div>
-  
-
-  <div class="main_articles">
-  <li class="list"><a href = "./projects/HungryCatCooking/index.html">HUNGRY CAT COOKING</a><exp> Hungry Cat Cooking is a cooking platforming 
-      game where you will play as a cat that aspires to be the first feline to open a human restaurant! Of course, in the world we live in,
-      a cat can't just randomly open a restaurant and serve humans. A long time ago, a fellow feline tried to accomplish such 
-      feat and wasn't successful. To your luck, this old cat created a training that will prepare you 
-      to thrive where he has failed. Check out the game trailer below!  </exp>
-      <br> <br>
-      <iframe width="336" height="189" src="https://www.youtube.com/embed/hFUhFPTT3pY" title="YouTube video player" frameborder="0"
-       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-       <a href = "https://spellingbee.itch.io/hungry-cat-cooking" target="_blank" rel="noopener noreferrer"><img src="./media/GameCardGIF.gif"  height="189"> </a>
-       <br> <br>
-      <exp>
-      Developed by: Bernardo Bianco Prado, Calvin Tran, Colin Yoon, and Drew Vanderspool
+      <div class="main_articles">
+        <li class="list"><a href="https://github.com/be-prado/breast-cancer-survival-prediction">
+          PREDICTION OF BREAST CANCER SURVIVAL USING MACHINE LEARNING</a>
+          <br>
+          <exp> 
+            This project uses machine learning algorithms to predict the survival of patients 10 years after they are diagnosed 
+            with breast cancer. In addition, we sought to understand what are the most important parameters in the dataset for prediction of 
+            survival. The machine learning algorithms were implemented by ourselves and the methods used were random forests, L1 logistic 
+            regression and kernelized support vector machines. Our most effective methods achieved around 80% prediction accuracy. 
+          </exp>  
+        </li>
         <br>
-       Original scores by: Emily Sulkey and Liam Kochanek
-       <br>
-       Original art by: Liam Kochanek, Calvin Tran and Bernardo Bianco Prado
-       <br>
-       Voice acting by: Chandler Branson
-      </exp>
+      </div>
+    </ul>
+  </a>
+
+  <a id = "publications">
+    <div class="main_articles">
+      <h2>PUBLICATIONS</h2>
+    </div>
+    <ul>
+      <div class="main_articles">
+        <li class="list">
+          <exp>
+            B. Bianco Prado, H. Jain, K. Norton, T. Jackson. SMoRe ParS: A Novel Methodology for Bridging Modeling Modalities 
+            and Experimental Data Applied to 3D Vascular Tumor Growth. 
+            [In preparation]
+          </exp>
+        </li>
+      </div>
+      <br>
+      <div class="main_articles">
+        <li class="list">
+          <exp>
+            B. Bianco Prado, K. Klinger-Logan. Linear Operators, the Hurwitz Zeta Function and Dirichlet L-Functions. 
+            Journal of Number Theory, 2020. 
+            [<a href="https://www.sciencedirect.com/science/article/pii/S0022314X20301657">journal</a>] 
+            [<a href="https://arxiv.org/abs/1910.01192">arxiv</a>]
+          </exp>
+        </li>
+        <br>
+      </div>
+    </ul>
+  </a>
+
+  <a id = "surveys">
+    <div class="main_articles">
+      <h2>ARTICLE SURVEYS</h2>
+    </div>
+    <ul>
+      <div class="main_articles">
+        <li class="list">
+          <a href="./media/articles/global_landscape_neural_networks.pdf">The Global Landscape of Neural Networks</a> 
+          <br>
+          <exp>
+            This article reviews some mathematical and computational results that seek to understand when neural networks 
+            converge to an optimal or nearly optimal output.
+          </exp>
         </li>
         <br>
       </div>
 
       <div class="main_articles">
-  <li class="list"><a href="./projects/PixelBlue/index.html">PIXEL BLUE</a><exp>  This is a two week prototype of a 
-       rythmic puzzle game in homage of Blues music. Your one 
-       and only tool is an electric keyboard and you can use it to progress in the game, interact with 
-       the world around you or just enjoy your own Blues improvisation!</exp>  </li>
+        <li class="list">
+          <a href="./media/articles/streaming_pca.pdf">A Survey of Methods for Streaming Principal Component Analysis</a> 
+          <br>
+          <exp>
+            This article surveys different methods that address the computational and data-related challenges of principal 
+            component analysis (PCA). The issues highlighted are that PCA can be computationally expensive and that in practice,
+            most of the data gathered is complete (e.g. has many missing entries). We review a series of methods that seek 
+            to address these issues.
+          </exp>
+        </li>
+      </div>
+    </ul>
+  </a>
 
-      <br>
-    </div>
-    <div class="main_articles">
-  <li class="list"><a href="./projects/Zelda/index.html">THE LEGEND OF ZELDA (UNITY REMASTER)</a></li>
-    </div>
-  </ul>
-  
+
   <div class="main_articles">
-    
-  <br><br>
-  <h2>RESEARCH PROJECTS</h2>
-  <p>B. Bianco Prado, H. Jain, K. Norton, T. Jackson. SMoRe ParS: A Novel Methodology for Bridging Modeling Modalities 
-    and Experimental Data Applied to 3D Vascular Tumor Growth. 
-    [In preparation]
-  </p>
-
-  <p>B. Bianco Prado, K. Klinger-Logan. Linear Operators, the Hurwitz Zeta Function and Dirichlet L-Functions. 
-    Journal of Number Theory, 2020. 
-    [<a href="https://www.sciencedirect.com/science/article/pii/S0022314X20301657">journal</a>] 
-    [<a href="https://arxiv.org/abs/1910.01192">arxiv</a>]
-  </p>
+    <br><br><br>
   </div>
 
+  <!--
 
-<!--
+  <p id="msg">Current tasks:</p>
+      <ul>
+        <li class="list">Add visual styles</li>
+        <li class="list">Add light and dark themes</li>
+        <li>Enable switching the theme</li>
+      </ul>
+      <div>
+        <button class="btn">Dark</button>
+      </div>
+      
+    -->
 
-<p id="msg">Current tasks:</p>
-    <ul>
-      <li class="list">Add visual styles</li>
-      <li class="list">Add light and dark themes</li>
-      <li>Enable switching the theme</li>
-    </ul>
-    <div>
-      <button class="btn">Dark</button>
-    </div>
-    
-  -->
+  <script src = "app.js"></script>
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
 
-<script src = "app.js"></script>
-<noscript>You need to enable JavaScript to view the full site.</noscript>
-
-</div>
+  </div>
 
 </body>
 </html>
